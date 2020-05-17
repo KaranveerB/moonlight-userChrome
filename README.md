@@ -87,12 +87,22 @@ and
     padding: 0px 0px 0px 25px !important;
 }
 ```
+## License
+NOTE: The `LICENSE` file is the ONLY file that defines the license of this project.
+In no way shall this `README.md` file be seen as a legal document that defines
+the licensing of this project or have any rights over the contents of the `LICENSE` file.
+
+This project is under a dual license license (GNU-GPLv3 + MIT). Because of this,
+please note that both licenses must be included in any redistributions of this project
+or parts of this project. The licensing under the GNU-GPLv3 was done to comply with the
+terms of the license rather than by personal choice. 
+
 
 ## Support
 There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Please report any problems to me and I will try my best to fix them with my limited knowledge.
 
 ---
-This is the unmodified version of the original developer's support message
+This is the unmodified version of the original developer's support message:
 ## Support
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
