@@ -1,4 +1,11 @@
-This project is licensed under the GNU General Public License v3.0. In addition to this, files from the original project, which can be found at https://github.com/eduardhojbota/moonlight-userChrome, are licensed under the MIT license. The contents of both the GNU GPLv3.0 and the MIT licenses can be found below. The contents of each license are seperated by a series of dashes.
+This project is licensed under the GNU General Public License v3.0. 
+In addition to this, files from the original project, which can be
+found at https://github.com/eduardhojbota/moonlight-userChrome, are
+licensed under the MIT license. The contents of both the GNU GPLv3.0
+and the MIT licenses can be found below. The begining and end of each
+licene are started after a series of dashes
+
+---- Beginning of GNU GPLv3 license 
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
@@ -675,7 +682,9 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
 
-----------------------------------------------------------------------------
+---- End of GNU GPLv3 license 
+
+---- Beginning of MIT license
 
 Copyright (c) 2020 Karanveer B.
 
@@ -696,3 +705,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---- End of MIT license
