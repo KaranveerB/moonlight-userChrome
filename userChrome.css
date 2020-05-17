@@ -1,8 +1,11 @@
+@import "custom/_titlebar-controls-enable-windows.css";
 @import '_variables.css';
 @import '_global.css';
 @import '_tab-bar.css';
+@import '_favicon-close.css';
 @import '_navigation-bar.css';
 @import '_bookmarks-bar.css';
+@import '_navigation-bar-hide.css';
 @import '_find-bar.css';
 @import '_side-bar.css';
 @import '_menu.css';

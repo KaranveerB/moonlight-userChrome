@@ -2,7 +2,23 @@
 
 A dark userstyle for Firefox inspired by [moonlight-vscode-theme](https://github.com/atomiks/moonlight-vscode-theme) and [github-moonlight](https://github.com/Brettm12345/github-moonlight)
 
+## Additions in this fork
+- [Auto-hiding URL](https://old.reddit.com/r/FirefoxCSS/comments/gc7w2j/collapsing_url_bar_improved_pywal_theme) bar by reddit user [SchokoMilf](https://reddit.com/user/SchokoMilf)
+- [Favicon as a close button](https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/combined_favicon_and_tab_close_button.css) by [MrOtherGuy](https://github.com/MrOtherGuy)
+- Slight design changes
+    - Set tab bar to be on top of navigation bar (default in Firefox)
+    - Enabled title bar controls for windows by defaut
+    - More subdued design when highlighting menu items
+    - Rounded close button when hovering over favicon
+    - Padding on left of tab bar
+    - Probably other stuff I'm forgetting
+- Hacky workarounds
+    - Arbitrary border-radius to make something round in `_favicon-close.css`
+    - Fixing weird padding in `_tab-bar.css`
+    - Code that is probably getting overwritten
+
 ![Firefox screenshot with the moonlight theme activated](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/preview.jpg)
+Warning: Screenshot does not include modifications made in this fork.
 
 ## Installation
 
@@ -28,7 +44,7 @@ To **enable** custom styles, copy and paste the following `@import` statements a
 
 ### Re-enable title bar controls (MIN-MAX-CLOSE buttons)
 
-For Windows:
+For Windows (enabled by default):
 
 ```css
 @import "custom/_titlebar-controls-enable-windows.css";
@@ -46,6 +62,37 @@ For macOS:
 @import "custom/_megabar-disable.css";
 ```
 
+### Disable auto-hiding URL bar
+Comment out or delete the following line:
+```css
+@import '_navigation-bar-hide.css';
+```
+### Disable favicon as close button
+Comment out or delete the following line:
+```css
+@import '_favicon-close.css';
+```
+
+### Remove left padding on windows
+In `_tab-bar.css` change the 4th values to `0px` for the following lines:
+
+```css
+#TabsToolbar {
+    padding: 0px 125px 0px 25px !important;
+}
+```
+and
+```css
+:root[sizemode="maximized"] #TabsToolbar {
+    padding: 0px 0px 0px 25px !important;
+}
+```
+
+## Support
+There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Please report any problems to me and I will try my best to fix them with my limited knowledge.
+
+---
+This is the unmodified version of the original developer's support message
 ## Support
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)

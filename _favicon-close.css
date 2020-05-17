@@ -1,0 +1,25 @@
+/*  
+ * Use favicon as close button - Option 3
+ * https://old.reddit.com/r/FirefoxCSS/comments/dfydog/ff69_macos_tab_favicon_turns_into_tab_close/f37ugmt/
+ * https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/combined_favicon_and_tab_close_button.css
+*/
+
+
+.tab-close-button{
+  -moz-box-ordinal-group: 0;
+  display: -moz-box !important;
+  position: relative;
+  margin-right: -18px !important;
+  z-index: -1;
+  visibility: hidden;
+  border-radius: 100px; /* Arbitrary number to make it fully round */
+}
+.tabbrowser-tab[pinned] .tab-close-button{ display: none !important; }
+.tab-close-button:hover{ background-color: var(--lwt-accent-color); }
+
+.tabbrowser-tab[selected] .tab-close-button:hover{ background-color: var(--lwt-selected-tab-background-color, var(--toolbar-bgcolor)); }
+.tab-icon-image:hover ~ .tab-close-button,
+.tab-close-button:hover,
+.tab-icon-image:not([src]) ~ .tab-label-container:hover ~ .tab-close-button{ visibility: visible; z-index: 1 }
+.tab-icon-image:not([src]) ~ .tab-label-container:hover ~ .tab-close-button,
+.tab-icon-image:not([src]) ~  .tab-close-button:hover {margin-right: 0px !important; }
