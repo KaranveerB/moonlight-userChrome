@@ -101,6 +101,9 @@ terms of the license rather than by personal choice.
 ## Support
 There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Please report any problems to me and I will try my best to fix them with my limited knowledge.
 
+### Known Bugs
+- Tab bar does not hide when fullscreened
+
 ---
 This is the unmodified version of the original developer's support message:
 ## Support
