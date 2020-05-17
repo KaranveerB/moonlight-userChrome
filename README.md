@@ -2,7 +2,10 @@
 
 A dark userstyle for Firefox inspired by [moonlight-vscode-theme](https://github.com/atomiks/moonlight-vscode-theme) and [github-moonlight](https://github.com/Brettm12345/github-moonlight)
 
-## Additions in this fork
+![Firefox screenshot with the moonlight theme activated](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/preview.jpg)
+Warning: Screenshot does not include modifications made in this fork.
+
+## Fork additions
 - [Auto-hiding URL](https://old.reddit.com/r/FirefoxCSS/comments/gc7w2j/collapsing_url_bar_improved_pywal_theme) bar by reddit user [SchokoMilf](https://reddit.com/user/SchokoMilf)
 - [Favicon as a close button](https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/combined_favicon_and_tab_close_button.css) by [MrOtherGuy](https://github.com/MrOtherGuy)
 - Slight design changes
@@ -16,9 +19,6 @@ A dark userstyle for Firefox inspired by [moonlight-vscode-theme](https://github
     - Arbitrary border-radius to make something round in `_favicon-close.css`
     - Fixing weird padding in `_tab-bar.css`
     - Code that is probably getting overwritten
-
-![Firefox screenshot with the moonlight theme activated](https://github.com/eduardhojbota/moonlight-userChrome/raw/master/preview.jpg)
-Warning: Screenshot does not include modifications made in this fork.
 
 ## Installation
 
@@ -62,18 +62,21 @@ For macOS:
 @import "custom/_megabar-disable.css";
 ```
 
+## Disabling fork additions
+Certain additions in this fork can be disabled through slight modifiations in the files.
+
 ### Disable auto-hiding URL bar
-Comment out or delete the following line:
+Comment out or delete the following line in `userChrome.css`:
 ```css
 @import '_navigation-bar-hide.css';
 ```
 ### Disable favicon as close button
-Comment out or delete the following line:
+Comment out or delete the following line in `userChrome.css`:
 ```css
 @import '_favicon-close.css';
 ```
 
-### Remove left padding on windows
+### Remove left padding on tab bar
 In `_tab-bar.css` change the 4th values to `0px` for the following lines:
 
 ```css
@@ -95,14 +98,15 @@ the licensing of this project or have any rights over the contents of the `LICEN
 This project is under a dual license license (GNU-GPLv3 + MIT). Because of this,
 please note that both licenses must be included in any redistributions of this project
 or parts of this project. The licensing under the GNU-GPLv3 was done to comply with the
-terms of the license rather than by personal choice. 
+terms of the license rather than by personal choice. See the license files for more information
 
 
 ## Support
-There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Please report any problems to me and I will try my best to fix them with my limited knowledge.
+There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Because the bugs are
+likely my fault, please report them to me rather than upstream and I will try my best to fix them.
 
 ### Known Bugs
-- Tab bar does not hide when fullscreened
+- Tab bar does not hide when in fullscreen
 
 ---
 This is the unmodified version of the original developer's support message:
