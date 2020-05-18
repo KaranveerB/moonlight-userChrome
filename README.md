@@ -98,7 +98,7 @@ the licensing of this project or have any rights over the contents of the `LICEN
 This project is under a dual license license (GNU-GPLv3 + MIT). Because of this,
 please note that both licenses must be included in any redistributions of this project
 or parts of this project. The licensing under the GNU-GPLv3 was done to comply with the
-terms of the license rather than by personal choice. See the license files for more information
+terms of the license rather than by personal choice. See the license files for more information.
 
 
 ## Support
