@@ -91,15 +91,8 @@ and
 }
 ```
 ## License
-NOTE: The `LICENSE` file is the ONLY file that defines the license of this project.
-In no way shall this `README.md` file be seen as a legal document that defines
-the licensing of this project or have any rights over the contents of the `LICENSE` file.
-
-This project is under a dual license license (GNU-GPLv3 + MIT). Because of this,
-please note that both licenses must be included in any redistributions of this project
-or parts of this project. The licensing under the GNU-GPLv3 was done to comply with the
-terms of the license rather than by personal choice. See the license files for more information.
-
+This project is licensed under MIT license as described by the `LICENSE` file.
+`_favicon-close.css` is also licensed under MPLv2 as described by the header.
 
 ## Support
 There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Because the bugs are
