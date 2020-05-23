@@ -91,7 +91,7 @@ and
 }
 ```
 ## License
-This project is licensed under MIT license as described by the `LICENSE` file.
+This project is licensed under MIT license as described by the `LICENSE` file.  
 `_favicon-close.css` is also licensed under MPLv2 as described by the header.
 
 ## Support
