@@ -66,7 +66,7 @@ For macOS:
 Uncomment selected option in `_favicon-close.css`  
 Option 0: favicon - no close button  
 Option 1: no favicon - no close button  
-Option 2: no favicon - always show close button
+Option 2: no favicon - always show close button  
 Option 3: no favicon - close button on cursor hover (default)
 
 ## Disabling fork additions
