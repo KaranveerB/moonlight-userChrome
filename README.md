@@ -10,7 +10,7 @@ Warning: Screenshot does not include modifications made in this fork.
 - [Favicon as a close button](https://github.com/MrOtherGuy/firefox-csshacks/blob/master/chrome/combined_favicon_and_tab_close_button.css) by [MrOtherGuy](https://github.com/MrOtherGuy)
 - Slight design changes
     - Set tab bar to be on top of navigation bar (default in Firefox)
-    - Enabled title bar controls for windows by defaut
+    - Enabled title bar controls for windows by default
     - More subdued design when highlighting menu items
     - Rounded close button when hovering over favicon
     - Padding on left of tab bar
@@ -62,8 +62,15 @@ For macOS:
 @import "custom/_megabar-disable.css";
 ```
 
+## Change favicon/close button behaviour
+Uncomment selected option in `_favicon-close.css`  
+Option 0: favicon - no close button  
+Option 1: no favicon - no close button  
+Option 2: no favicon - always show close button
+Option 3: no favicon - close button on cursor hover (default)
+
 ## Disabling fork additions
-Certain additions in this fork can be disabled through slight modifiations in the files.
+Certain additions in this fork can be disabled through slight modifications in the files.
 
 ### Disable auto-hiding URL bar
 Comment out or delete the following line in `userChrome.css`:
@@ -95,7 +102,7 @@ This project is licensed under MIT license as described by the `LICENSE` file.
 `_favicon-close.css` is also licensed under MPLv2 as described by the header.
 
 ## Support
-There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the origial code. Because the bugs are
+There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the original code. Because the bugs are
 likely my fault, please report them to me rather than upstream and I will try my best to fix them.
 
 ### Known Bugs

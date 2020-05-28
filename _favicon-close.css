@@ -34,9 +34,12 @@ made available under Mozilla Public License v. 2.0. See the above repository for
 */
 
 
-/*** Option - No icon - show close-button when cursor is over the tab text ***/
+/** Option 3 - No icon - show close-button when cursor is over the tab text **/
 .tab-icon-image:hover ~ .tab-close-button,
 .tab-close-button:hover,
 .tab-icon-image:not([src]) ~ .tab-label-container:hover ~ .tab-close-button{ visibility: visible; z-index: 1 }
 .tab-icon-image:not([src]) ~ .tab-label-container:hover ~ .tab-close-button,
 .tab-icon-image:not([src]) ~  .tab-close-button:hover {margin-right: 0px !important; }
+
+/** Option 0 (comment out all options) - favicon - no close button **/
+/* Middle mouse button can be used to close tabs */
