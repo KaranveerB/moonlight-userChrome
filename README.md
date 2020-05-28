@@ -62,13 +62,6 @@ For macOS:
 @import "custom/_megabar-disable.css";
 ```
 
-## Change favicon/close button behaviour
-Uncomment selected option in `_favicon-close.css`  
-Option 0: favicon - no close button  
-Option 1: no favicon - no close button  
-Option 2: no favicon - always show close button  
-Option 3: no favicon - close button on cursor hover (default)
-
 ## Disabling fork additions
 Certain additions in this fork can be disabled through slight modifications in the files.
 
