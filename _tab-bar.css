@@ -16,21 +16,22 @@
     /* This padding is added in maximized state */
     padding: 0px 125px 0px 25px !important;
     /*padding: 2px !important;*/
+    margin-top: -1px !important;
+    padding-bottom: 1px !important;
 }
 
 /* Bad fix for above padding problem */
 :root[sizemode="maximized"] #TabsToolbar {
-    padding: 0px 0px 0px 25px !important; 
-}
+    padding: 0px 0px 0px 25px !important;
 
 #toolbar-menubar {
-    color: var(--moonlight-gray-10) !important;   
+    color: var(--moonlight-gray-10) !important;
 }
 
 .tabbrowser-tab .tab-stack {
     background: var(--moonlight-gray-4) !important;
-    border: 0px solid var(--moonlight-gray-1) !important;
-    margin: 2px !important;
+    border: 1px solid var(--moonlight-gray-1) !important;
+    margin: 2px 4px 2px 2px !important;
     border-radius: 3px !important;
     color: var(--moonlight-gray-10) !important;
     transition: background-color, border-color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;

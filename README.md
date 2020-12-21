@@ -62,6 +62,14 @@ For macOS:
 @import "custom/_megabar-disable.css";
 ```
 
+### Add Developer Tools styling
+
+Set theme to dark in Firefox Developer Tools [settings](https://developer.mozilla.org/en-US/docs/Tools/Settings). Then, add the following line to `userContent.css`:
+
+```
+@import "custom/_dev-tools.css";
+```
+
 ## Disabling fork additions
 Certain additions in this fork can be disabled through slight modifications in the files.
 
@@ -94,7 +102,7 @@ and
 This project is licensed under MIT license as described by the `LICENSE` file.  
 `_favicon-close.css` is also licensed under MPLv2 as described by the header.
 
-## Support
+## Problems
 There is a fair chance you'll come across bugs or mistakes as I don't know CSS, I haven't read the docs for custom CSS in Firefox, and I haven't read all of the original code. Because the bugs are
 likely my fault, please report them to me rather than upstream and I will try my best to fix them.
 
@@ -103,6 +111,7 @@ likely my fault, please report them to me rather than upstream and I will try my
 
 ---
 This is the unmodified version of the original developer's support message:
+
 ## Support
 
 If you love my work and would like to support my future endeavors I would gladly drink a coffee with you :)
